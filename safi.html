@@ -5,31 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SaFi Production | Stories In Every Shot</title>
   
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              black: '#070709',
-              dark: '#111116',
-              card: '#181820',
-              gold: '#D4AF37',
-              goldHover: '#B89628',
-              goldLight: '#F3E5AB'
-            }
-          },
-          fontFamily: {
-            serif: ['Playfair Display', 'serif'],
-            sans: ['Inter', 'sans-serif']
-          }
-        }
-      }
-    };
-  </script>
+  <link href="./styles.css" rel="stylesheet">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,7 +42,7 @@
   <div class="bg-gradient-to-r from-brand-dark via-brand-gold/20 to-brand-dark border-b border-brand-gold/20 py-2.5 px-4 text-center text-xs tracking-wider text-brand-goldLight flex flex-wrap items-center justify-center gap-2">
     <i data-lucide="external-link" class="w-3.5 h-3.5 text-brand-gold"></i>
     <span>View our full client galleries and high-resolution catalogues on Pixieset:</span>
-    <a href="https://safiproduction.mypixieset.com" target="_blank" class="underline font-bold text-brand-gold hover:text-white transition-colors">safiproduction.mypixieset.com</a>
+    <a href="https://safiproduction.mypixieset.com" target="_blank" rel="noopener noreferrer" class="underline font-bold text-brand-gold hover:text-white transition-colors">safiproduction.mypixieset.com</a>
   </div>
 
   <!-- NAVIGATION -->
@@ -98,10 +74,10 @@
 
       <!-- Action Buttons -->
       <div class="flex items-center gap-3">
-        <a href="https://safiproduction.mypixieset.com" target="_blank" class="hidden sm:inline-flex items-center gap-2 border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black px-4 py-2 rounded-full text-xs font-bold tracking-wider uppercase transition-all">
+        <a href="https://safiproduction.mypixieset.com" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-2 border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black px-4 py-2 rounded-full text-xs font-bold tracking-wider uppercase transition-all">
           <i data-lucide="image" class="w-3.5 h-3.5"></i> Open Pixieset
         </a>
-        <a href="https://wa.me/254714909772?text=Hello%20SaFi%20Production,%20I%20would%20like%20to%20book%20a%20shoot." target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-full text-xs font-bold tracking-wider uppercase transition-all shadow-lg shadow-emerald-900/30 flex items-center gap-1.5">
+        <a href="https://wa.me/254714909772?text=Hello%20SaFi%20Production,%20I%20would%20like%20to%20book%20a%20shoot." target="_blank" rel="noopener noreferrer" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-full text-xs font-bold tracking-wider uppercase transition-all shadow-lg shadow-emerald-900/30 flex items-center gap-1.5">
           <i data-lucide="message-square" class="w-3.5 h-3.5"></i> WhatsApp Us
         </a>
       </div>
@@ -122,13 +98,13 @@
           Capturing <span class="gold-gradient-text italic">Stories</span> In Every Single Shot.
         </h1>
         <p class="text-gray-400 text-base md:text-lg font-light mb-8 leading-relaxed">
-          Explore our official rate cards for Personal Portraits, Luxury Wedding Photography, and Full Cinematic Photo & Video Combos[cite: 6, 8, 9]. Payments are split in two installments[cite: 6, 8, 9].
+          Explore our official rate cards for Personal Portraits, Luxury Wedding Photography, and Full Cinematic Photo & Video Combos. Payments are split in two installments.
         </p>
         <div class="flex flex-wrap gap-4">
           <a href="#rates" class="bg-brand-gold hover:bg-brand-goldHover text-black px-7 py-3.5 rounded-full font-bold text-xs uppercase tracking-wider transition-all shadow-xl shadow-brand-gold/20 flex items-center gap-2">
             View Rate Cards <i data-lucide="arrow-down" class="w-4 h-4"></i>
           </a>
-          <a href="https://safiproduction.mypixieset.com" target="_blank" class="border border-brand-gold/40 text-white hover:border-brand-gold px-7 py-3.5 rounded-full font-semibold text-xs uppercase tracking-wider transition-all bg-brand-dark/50 flex items-center gap-2">
+          <a href="https://safiproduction.mypixieset.com" target="_blank" rel="noopener noreferrer" class="border border-brand-gold/40 text-white hover:border-brand-gold px-7 py-3.5 rounded-full font-semibold text-xs uppercase tracking-wider transition-all bg-brand-dark/50 flex items-center gap-2">
             <i data-lucide="external-link" class="w-4 h-4 text-brand-gold"></i> Pixieset Catalogues
           </a>
         </div>
@@ -169,7 +145,7 @@
     <div class="text-center mb-16">
       <span class="text-brand-gold text-xs font-bold tracking-widest uppercase">Official Pricing</span>
       <h2 class="text-3xl md:text-5xl font-serif font-bold text-white mt-2">Rate Cards & Catalogues</h2>
-      <p class="text-gray-400 mt-3 text-sm md:text-base max-w-xl mx-auto">Select a tab below to switch between Personal Portrait sessions, Wedding Photography, and Photo+Video Combos[cite: 6, 8, 9].</p>
+      <p class="text-gray-400 mt-3 text-sm md:text-base max-w-xl mx-auto">Select a tab below to switch between Personal Portrait sessions, Wedding Photography, and Photo+Video Combos.</p>
       
       <!-- Category Switcher Tabs -->
       <div class="inline-flex p-1.5 rounded-2xl bg-brand-dark border border-brand-gold/30 mt-8 gap-1.5 flex-wrap justify-center">
@@ -197,12 +173,12 @@
             <span class="text-3xl font-bold font-serif text-white">KES 5,000</span>
           </div>
           <ul class="space-y-3 text-sm text-gray-300 border-t border-brand-gold/10 pt-6">
-            <li class="flex items-center gap-3"><i data-lucide="clock" class="w-4 h-4 text-brand-gold"></i> 1 hour shoot coverage[cite: 6, 7]</li>
-            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 50 Professionally Edited Photos[cite: 6, 7]</li>
-            <li class="flex items-center gap-3"><i data-lucide="download" class="w-4 h-4 text-brand-gold"></i> Digital Softcopy Delivery[cite: 6, 7]</li>
+            <li class="flex items-center gap-3"><i data-lucide="clock" class="w-4 h-4 text-brand-gold"></i> 1 hour shoot coverage</li>
+            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 50 Professionally Edited Photos</li>
+            <li class="flex items-center gap-3"><i data-lucide="download" class="w-4 h-4 text-brand-gold"></i> Digital Softcopy Delivery</li>
           </ul>
         </div>
-        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Personal%20SaFi%20Basic%20package%20(KES%205,000)." target="_blank" class="mt-8 w-full py-3 rounded-xl border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black font-bold text-xs uppercase tracking-wider text-center transition-all">
+        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Personal%20SaFi%20Basic%20package%20(KES%205,000)." target="_blank" rel="noopener noreferrer" class="mt-8 w-full py-3 rounded-xl border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black font-bold text-xs uppercase tracking-wider text-center transition-all">
           Book Basic
         </a>
       </div>
@@ -220,12 +196,12 @@
             <span class="text-3xl font-bold font-serif text-brand-gold">KES 10,000</span>
           </div>
           <ul class="space-y-3 text-sm text-gray-300 border-t border-brand-gold/10 pt-6">
-            <li class="flex items-center gap-3"><i data-lucide="clock" class="w-4 h-4 text-brand-gold"></i> 2 hour shoot coverage[cite: 6, 7]</li>
-            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 100 Professionally Edited Photos[cite: 6, 7]</li>
-            <li class="flex items-center gap-3"><i data-lucide="download" class="w-4 h-4 text-brand-gold"></i> Digital Softcopy Delivery[cite: 6, 7]</li>
+            <li class="flex items-center gap-3"><i data-lucide="clock" class="w-4 h-4 text-brand-gold"></i> 2 hour shoot coverage</li>
+            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 100 Professionally Edited Photos</li>
+            <li class="flex items-center gap-3"><i data-lucide="download" class="w-4 h-4 text-brand-gold"></i> Digital Softcopy Delivery</li>
           </ul>
         </div>
-        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Personal%20SaFi%20Classic%20package%20(KES%2010,000)." target="_blank" class="mt-8 w-full py-3 rounded-xl bg-brand-gold text-black font-bold text-xs uppercase tracking-wider text-center transition-all hover:bg-brand-goldHover shadow-lg shadow-brand-gold/20">
+        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Personal%20SaFi%20Classic%20package%20(KES%2010,000)." target="_blank" rel="noopener noreferrer" class="mt-8 w-full py-3 rounded-xl bg-brand-gold text-black font-bold text-xs uppercase tracking-wider text-center transition-all hover:bg-brand-goldHover shadow-lg shadow-brand-gold/20">
           Book Classic
         </a>
       </div>
@@ -240,12 +216,12 @@
             <span class="text-3xl font-bold font-serif text-white">KES 15,000</span>
           </div>
           <ul class="space-y-3 text-sm text-gray-300 border-t border-brand-gold/10 pt-6">
-            <li class="flex items-center gap-3"><i data-lucide="clock" class="w-4 h-4 text-brand-gold"></i> 3 hour shoot coverage[cite: 6, 7]</li>
-            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 200 Professionally Edited Photos[cite: 6, 7]</li>
-            <li class="flex items-center gap-3"><i data-lucide="download" class="w-4 h-4 text-brand-gold"></i> Digital Softcopy Delivery[cite: 6, 7]</li>
+            <li class="flex items-center gap-3"><i data-lucide="clock" class="w-4 h-4 text-brand-gold"></i> 3 hour shoot coverage</li>
+            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 200 Professionally Edited Photos</li>
+            <li class="flex items-center gap-3"><i data-lucide="download" class="w-4 h-4 text-brand-gold"></i> Digital Softcopy Delivery</li>
           </ul>
         </div>
-        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Personal%20SaFi%20Pro%20package%20(KES%2015,000)." target="_blank" class="mt-8 w-full py-3 rounded-xl border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black font-bold text-xs uppercase tracking-wider text-center transition-all">
+        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Personal%20SaFi%20Pro%20package%20(KES%2015,000)." target="_blank" rel="noopener noreferrer" class="mt-8 w-full py-3 rounded-xl border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black font-bold text-xs uppercase tracking-wider text-center transition-all">
           Book Pro
         </a>
       </div>
@@ -263,15 +239,15 @@
             <span class="text-3xl font-bold font-serif text-white">KES 25,000</span>
           </div>
           <ul class="space-y-3 text-sm text-gray-300 border-t border-brand-gold/10 pt-6">
-            <li class="flex items-center gap-3"><i data-lucide="clock" class="w-4 h-4 text-brand-gold"></i> 8 Hours Photography Coverage[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="user" class="w-4 h-4 text-brand-gold"></i> 1 Pro Photographer[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 50 Professionally edited Photos[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="frame" class="w-4 h-4 text-brand-gold"></i> Single A2 enlargement[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="layers" class="w-4 h-4 text-brand-gold"></i> Double A4 framed photo mounts[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i> Raw & edited Photos in Flash Drive[cite: 8]</li>
+            <li class="flex items-center gap-3"><i data-lucide="clock" class="w-4 h-4 text-brand-gold"></i> 8 Hours Photography Coverage</li>
+            <li class="flex items-center gap-3"><i data-lucide="user" class="w-4 h-4 text-brand-gold"></i> 1 Pro Photographer</li>
+            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 50 Professionally edited Photos</li>
+            <li class="flex items-center gap-3"><i data-lucide="frame" class="w-4 h-4 text-brand-gold"></i> Single A2 enlargement</li>
+            <li class="flex items-center gap-3"><i data-lucide="layers" class="w-4 h-4 text-brand-gold"></i> Double A4 framed photo mounts</li>
+            <li class="flex items-center gap-3"><i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i> Raw & edited Photos in Flash Drive</li>
           </ul>
         </div>
-        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Wedding%20Photo%20SaFi%20Basic%20package%20(KES%2025,000)." target="_blank" class="mt-8 w-full py-3 rounded-xl border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black font-bold text-xs uppercase tracking-wider text-center transition-all">
+        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Wedding%20Photo%20SaFi%20Basic%20package%20(KES%2025,000)." target="_blank" rel="noopener noreferrer" class="mt-8 w-full py-3 rounded-xl border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black font-bold text-xs uppercase tracking-wider text-center transition-all">
           Book Wedding Photo Basic
         </a>
       </div>
@@ -286,15 +262,15 @@
             <span class="text-3xl font-bold font-serif text-brand-gold">KES 40,000</span>
           </div>
           <ul class="space-y-3 text-sm text-gray-300 border-t border-brand-gold/10 pt-6">
-            <li class="flex items-center gap-3"><i data-lucide="sun" class="w-4 h-4 text-brand-gold"></i> Full Day Photography Coverage[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="users" class="w-4 h-4 text-brand-gold"></i> 2 Pro Photographers[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 50 Professionally edited Photos[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="frame" class="w-4 h-4 text-brand-gold"></i> Single A2 enlargement[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="layers" class="w-4 h-4 text-brand-gold"></i> Double A4 framed photo mounts[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i> Raw & edited Photos in Flash Drive[cite: 8]</li>
+            <li class="flex items-center gap-3"><i data-lucide="sun" class="w-4 h-4 text-brand-gold"></i> Full Day Photography Coverage</li>
+            <li class="flex items-center gap-3"><i data-lucide="users" class="w-4 h-4 text-brand-gold"></i> 2 Pro Photographers</li>
+            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 50 Professionally edited Photos</li>
+            <li class="flex items-center gap-3"><i data-lucide="frame" class="w-4 h-4 text-brand-gold"></i> Single A2 enlargement</li>
+            <li class="flex items-center gap-3"><i data-lucide="layers" class="w-4 h-4 text-brand-gold"></i> Double A4 framed photo mounts</li>
+            <li class="flex items-center gap-3"><i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i> Raw & edited Photos in Flash Drive</li>
           </ul>
         </div>
-        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Wedding%20Photo%20SaFi%20Classic%20package%20(KES%2040,000)." target="_blank" class="mt-8 w-full py-3 rounded-xl bg-brand-gold text-black font-bold text-xs uppercase tracking-wider text-center transition-all hover:bg-brand-goldHover shadow-lg shadow-brand-gold/20">
+        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Wedding%20Photo%20SaFi%20Classic%20package%20(KES%2040,000)." target="_blank" rel="noopener noreferrer" class="mt-8 w-full py-3 rounded-xl bg-brand-gold text-black font-bold text-xs uppercase tracking-wider text-center transition-all hover:bg-brand-goldHover shadow-lg shadow-brand-gold/20">
           Book Wedding Photo Classic
         </a>
       </div>
@@ -309,17 +285,17 @@
             <span class="text-3xl font-bold font-serif text-white">KES 55,000</span>
           </div>
           <ul class="space-y-3 text-sm text-gray-300 border-t border-brand-gold/10 pt-6">
-            <li class="flex items-center gap-3"><i data-lucide="sun" class="w-4 h-4 text-brand-gold"></i> Full Day Photography Coverage[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="users" class="w-4 h-4 text-brand-gold"></i> 2 Pro Photographers[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 100 Professionally edited Photos[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="frame" class="w-4 h-4 text-brand-gold"></i> Single A2 enlargement[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="layers" class="w-4 h-4 text-brand-gold"></i> Double A4 framed photo mounts[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="book-open" class="w-4 h-4 text-brand-gold"></i> Parents' Albums included[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="video" class="w-4 h-4 text-brand-gold"></i> Edited Reels & Shots for Socials[cite: 8]</li>
-            <li class="flex items-center gap-3"><i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i> Raw & edited Photos in Flash Drive[cite: 8]</li>
+            <li class="flex items-center gap-3"><i data-lucide="sun" class="w-4 h-4 text-brand-gold"></i> Full Day Photography Coverage</li>
+            <li class="flex items-center gap-3"><i data-lucide="users" class="w-4 h-4 text-brand-gold"></i> 2 Pro Photographers</li>
+            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 100 Professionally edited Photos</li>
+            <li class="flex items-center gap-3"><i data-lucide="frame" class="w-4 h-4 text-brand-gold"></i> Single A2 enlargement</li>
+            <li class="flex items-center gap-3"><i data-lucide="layers" class="w-4 h-4 text-brand-gold"></i> Double A4 framed photo mounts</li>
+            <li class="flex items-center gap-3"><i data-lucide="book-open" class="w-4 h-4 text-brand-gold"></i> Parents' Albums included</li>
+            <li class="flex items-center gap-3"><i data-lucide="video" class="w-4 h-4 text-brand-gold"></i> Edited Reels & Shots for Socials</li>
+            <li class="flex items-center gap-3"><i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i> Raw & edited Photos in Flash Drive</li>
           </ul>
         </div>
-        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Wedding%20Photo%20SaFi%20Pro%20package%20(KES%2055,000)." target="_blank" class="mt-8 w-full py-3 rounded-xl border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black font-bold text-xs uppercase tracking-wider text-center transition-all">
+        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Wedding%20Photo%20SaFi%20Pro%20package%20(KES%2055,000)." target="_blank" rel="noopener noreferrer" class="mt-8 w-full py-3 rounded-xl border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black font-bold text-xs uppercase tracking-wider text-center transition-all">
           Book Wedding Photo Pro
         </a>
       </div>
@@ -337,17 +313,17 @@
             <span class="text-3xl font-bold font-serif text-white">KES 35,000</span>
           </div>
           <ul class="space-y-3 text-sm text-gray-300 border-t border-brand-gold/10 pt-6">
-            <li class="flex items-center gap-3"><i data-lucide="sun" class="w-4 h-4 text-brand-gold"></i> Full Day Coverage[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="user" class="w-4 h-4 text-brand-gold"></i> 1 Pro Photographer[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="video" class="w-4 h-4 text-brand-gold"></i> 1 Dedicated Videographer[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="aperture" class="w-4 h-4 text-brand-gold"></i> 2nd photo angle from video camera[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 50 Professionally edited Photos[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="frame" class="w-4 h-4 text-brand-gold"></i> Single A2 enlargement[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="layers" class="w-4 h-4 text-brand-gold"></i> Double A4 framed photo mounts[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i> Raw & Edited Photos & Video in Flash Drive[cite: 9]</li>
+            <li class="flex items-center gap-3"><i data-lucide="sun" class="w-4 h-4 text-brand-gold"></i> Full Day Coverage</li>
+            <li class="flex items-center gap-3"><i data-lucide="user" class="w-4 h-4 text-brand-gold"></i> 1 Pro Photographer</li>
+            <li class="flex items-center gap-3"><i data-lucide="video" class="w-4 h-4 text-brand-gold"></i> 1 Dedicated Videographer</li>
+            <li class="flex items-center gap-3"><i data-lucide="aperture" class="w-4 h-4 text-brand-gold"></i> 2nd photo angle from video camera</li>
+            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 50 Professionally edited Photos</li>
+            <li class="flex items-center gap-3"><i data-lucide="frame" class="w-4 h-4 text-brand-gold"></i> Single A2 enlargement</li>
+            <li class="flex items-center gap-3"><i data-lucide="layers" class="w-4 h-4 text-brand-gold"></i> Double A4 framed photo mounts</li>
+            <li class="flex items-center gap-3"><i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i> Raw & Edited Photos & Video in Flash Drive</li>
           </ul>
         </div>
-        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Photo%2BVideo%20SaFi%20Basic%20package%20(KES%2035,000)." target="_blank" class="mt-8 w-full py-3 rounded-xl border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black font-bold text-xs uppercase tracking-wider text-center transition-all">
+        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Photo%2BVideo%20SaFi%20Basic%20package%20(KES%2035,000)." target="_blank" rel="noopener noreferrer" class="mt-8 w-full py-3 rounded-xl border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black font-bold text-xs uppercase tracking-wider text-center transition-all">
           Book Combo Basic
         </a>
       </div>
@@ -362,17 +338,17 @@
             <span class="text-3xl font-bold font-serif text-brand-gold">KES 55,000</span>
           </div>
           <ul class="space-y-3 text-sm text-gray-300 border-t border-brand-gold/10 pt-6">
-            <li class="flex items-center gap-3"><i data-lucide="sun" class="w-4 h-4 text-brand-gold"></i> Full Day Coverage[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="user" class="w-4 h-4 text-brand-gold"></i> 1 Pro Photographer[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="camera" class="w-4 h-4 text-brand-gold"></i> 1 Pro Video/Photographer[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="video" class="w-4 h-4 text-brand-gold"></i> 1 Dedicated Videographer[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 50 Professionally edited Photos[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="frame" class="w-4 h-4 text-brand-gold"></i> Single A2 enlargement[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="layers" class="w-4 h-4 text-brand-gold"></i> Double A4 framed photo mounts[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i> Raw & Edited Photos & Video in Flash Drive[cite: 9]</li>
+            <li class="flex items-center gap-3"><i data-lucide="sun" class="w-4 h-4 text-brand-gold"></i> Full Day Coverage</li>
+            <li class="flex items-center gap-3"><i data-lucide="user" class="w-4 h-4 text-brand-gold"></i> 1 Pro Photographer</li>
+            <li class="flex items-center gap-3"><i data-lucide="camera" class="w-4 h-4 text-brand-gold"></i> 1 Pro Video/Photographer</li>
+            <li class="flex items-center gap-3"><i data-lucide="video" class="w-4 h-4 text-brand-gold"></i> 1 Dedicated Videographer</li>
+            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 50 Professionally edited Photos</li>
+            <li class="flex items-center gap-3"><i data-lucide="frame" class="w-4 h-4 text-brand-gold"></i> Single A2 enlargement</li>
+            <li class="flex items-center gap-3"><i data-lucide="layers" class="w-4 h-4 text-brand-gold"></i> Double A4 framed photo mounts</li>
+            <li class="flex items-center gap-3"><i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i> Raw & Edited Photos & Video in Flash Drive</li>
           </ul>
         </div>
-        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Photo%2BVideo%20SaFi%20Classic%20package%20(KES%2055,000)." target="_blank" class="mt-8 w-full py-3 rounded-xl bg-brand-gold text-black font-bold text-xs uppercase tracking-wider text-center transition-all hover:bg-brand-goldHover shadow-lg shadow-brand-gold/20">
+        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Photo%2BVideo%20SaFi%20Classic%20package%20(KES%2055,000)." target="_blank" rel="noopener noreferrer" class="mt-8 w-full py-3 rounded-xl bg-brand-gold text-black font-bold text-xs uppercase tracking-wider text-center transition-all hover:bg-brand-goldHover shadow-lg shadow-brand-gold/20">
           Book Combo Classic
         </a>
       </div>
@@ -387,18 +363,18 @@
             <span class="text-3xl font-bold font-serif text-white">KES 75,000</span>
           </div>
           <ul class="space-y-3 text-sm text-gray-300 border-t border-brand-gold/10 pt-6">
-            <li class="flex items-center gap-3"><i data-lucide="sun" class="w-4 h-4 text-brand-gold"></i> Full Day Photography Coverage[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="user" class="w-4 h-4 text-brand-gold"></i> 1 Pro Photographer[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="camera" class="w-4 h-4 text-brand-gold"></i> 1 Pro Video/Photographer[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="video" class="w-4 h-4 text-brand-gold"></i> 2 Dedicated Videographers[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 100 Professionally edited Photos[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="frame" class="w-4 h-4 text-brand-gold"></i> Single A2 enlargement[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="layers" class="w-4 h-4 text-brand-gold"></i> Double A4 framed photo mounts[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="film" class="w-4 h-4 text-brand-gold"></i> Edited Reels & Shots for Socials[cite: 9]</li>
-            <li class="flex items-center gap-3"><i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i> Raw & Edited Photos in Flash Drive[cite: 9]</li>
+            <li class="flex items-center gap-3"><i data-lucide="sun" class="w-4 h-4 text-brand-gold"></i> Full Day Photography Coverage</li>
+            <li class="flex items-center gap-3"><i data-lucide="user" class="w-4 h-4 text-brand-gold"></i> 1 Pro Photographer</li>
+            <li class="flex items-center gap-3"><i data-lucide="camera" class="w-4 h-4 text-brand-gold"></i> 1 Pro Video/Photographer</li>
+            <li class="flex items-center gap-3"><i data-lucide="video" class="w-4 h-4 text-brand-gold"></i> 2 Dedicated Videographers</li>
+            <li class="flex items-center gap-3"><i data-lucide="image" class="w-4 h-4 text-brand-gold"></i> 100 Professionally edited Photos</li>
+            <li class="flex items-center gap-3"><i data-lucide="frame" class="w-4 h-4 text-brand-gold"></i> Single A2 enlargement</li>
+            <li class="flex items-center gap-3"><i data-lucide="layers" class="w-4 h-4 text-brand-gold"></i> Double A4 framed photo mounts</li>
+            <li class="flex items-center gap-3"><i data-lucide="film" class="w-4 h-4 text-brand-gold"></i> Edited Reels & Shots for Socials</li>
+            <li class="flex items-center gap-3"><i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i> Raw & Edited Photos in Flash Drive</li>
           </ul>
         </div>
-        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Photo%2BVideo%20SaFi%20Pro%20package%20(KES%2075,000)." target="_blank" class="mt-8 w-full py-3 rounded-xl border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black font-bold text-xs uppercase tracking-wider text-center transition-all">
+        <a href="https://wa.me/254714909772?text=Hi%20SaFi%20Production,%20I'd%20like%20to%20book%20the%20Photo%2BVideo%20SaFi%20Pro%20package%20(KES%2075,000)." target="_blank" rel="noopener noreferrer" class="mt-8 w-full py-3 rounded-xl border border-brand-gold/40 text-brand-gold hover:bg-brand-gold hover:text-black font-bold text-xs uppercase tracking-wider text-center transition-all">
           Book Combo Pro
         </a>
       </div>
@@ -413,13 +389,13 @@
           <span class="text-brand-gold text-xs font-bold tracking-widest uppercase">High-Resolution Client Galleries</span>
           <h2 class="text-3xl md:text-5xl font-serif font-bold text-white mt-2">Pixieset Catalogues</h2>
         </div>
-        <a href="https://safiproduction.mypixieset.com" target="_blank" class="mt-4 md:mt-0 text-brand-gold hover:text-white text-xs uppercase tracking-widest font-bold flex items-center gap-2 group">
+        <a href="https://safiproduction.mypixieset.com" target="_blank" rel="noopener noreferrer" class="mt-4 md:mt-0 text-brand-gold hover:text-white text-xs uppercase tracking-widest font-bold flex items-center gap-2 group">
           Open safiproduction.mypixieset.com <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
         </a>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <a href="https://safiproduction.mypixieset.com" target="_blank" class="group glass-card rounded-2xl overflow-hidden block">
+        <a href="https://safiproduction.mypixieset.com" target="_blank" rel="noopener noreferrer" class="group glass-card rounded-2xl overflow-hidden block">
           <div class="h-64 overflow-hidden relative">
             <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Weddings Portfolio" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
             <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
@@ -431,7 +407,7 @@
           </div>
         </a>
 
-        <a href="https://safiproduction.mypixieset.com" target="_blank" class="group glass-card rounded-2xl overflow-hidden block">
+        <a href="https://safiproduction.mypixieset.com" target="_blank" rel="noopener noreferrer" class="group glass-card rounded-2xl overflow-hidden block">
           <div class="h-64 overflow-hidden relative">
             <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Portraits Portfolio" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
             <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
@@ -443,7 +419,7 @@
           </div>
         </a>
 
-        <a href="https://safiproduction.mypixieset.com" target="_blank" class="group glass-card rounded-2xl overflow-hidden block">
+        <a href="https://safiproduction.mypixieset.com" target="_blank" rel="noopener noreferrer" class="group glass-card rounded-2xl overflow-hidden block">
           <div class="h-64 overflow-hidden relative">
             <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=800&q=80" alt="Cinematic Videos" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
             <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
@@ -470,21 +446,21 @@
           </div>
           <div>
             <h3 class="text-xl font-serif font-bold text-white">Add-On Services</h3>
-            <p class="text-xs text-gray-400">Custom additions for wedding packages[cite: 8, 9]</p>
+            <p class="text-xs text-gray-400">Custom additions for wedding packages</p>
           </div>
         </div>
         <ul class="space-y-4 text-sm text-gray-300">
           <li class="flex items-start gap-3">
             <i data-lucide="check" class="w-5 h-5 text-brand-gold shrink-0 mt-0.5"></i>
-            <span><strong>Live Streaming:</strong> Multi-platform livestream with video call & in-house display[cite: 9].</span>
+            <span><strong>Live Streaming:</strong> Multi-platform livestream with video call & in-house display.</span>
           </li>
           <li class="flex items-start gap-3">
             <i data-lucide="check" class="w-5 h-5 text-brand-gold shrink-0 mt-0.5"></i>
-            <span><strong>Additional Albums:</strong> Custom photo albums for family members and guests[cite: 8].</span>
+            <span><strong>Additional Albums:</strong> Custom photo albums for family members and guests.</span>
           </li>
           <li class="flex items-start gap-3">
             <i data-lucide="check" class="w-5 h-5 text-brand-gold shrink-0 mt-0.5"></i>
-            <span><strong>Frames & Mounts:</strong> Various sizes and custom design options for portraits[cite: 8].</span>
+            <span><strong>Frames & Mounts:</strong> Various sizes and custom design options for portraits.</span>
           </li>
         </ul>
       </div>
@@ -497,21 +473,21 @@
           </div>
           <div>
             <h3 class="text-xl font-serif font-bold text-white">Additional Information</h3>
-            <p class="text-xs text-gray-400">Booking policy & terms[cite: 6, 8, 9]</p>
+            <p class="text-xs text-gray-400">Booking policy & terms</p>
           </div>
         </div>
         <ul class="space-y-4 text-sm text-gray-300">
           <li class="flex items-start gap-3">
             <i data-lucide="credit-card" class="w-5 h-5 text-brand-gold shrink-0 mt-0.5"></i>
-            <span><strong>Two Installments:</strong> Payments are conveniently made in two installments[cite: 6, 8, 9].</span>
+            <span><strong>Two Installments:</strong> Payments are conveniently made in two installments.</span>
           </li>
           <li class="flex items-start gap-3">
             <i data-lucide="map-pin" class="w-5 h-5 text-brand-gold shrink-0 mt-0.5"></i>
-            <span><strong>Exclusions:</strong> Venue charges are not included in package rates[cite: 6, 7].</span>
+            <span><strong>Exclusions:</strong> Venue charges are not included in package rates.</span>
           </li>
           <li class="flex items-start gap-3">
             <i data-lucide="navigation" class="w-5 h-5 text-brand-gold shrink-0 mt-0.5"></i>
-            <span><strong>Travel Fees:</strong> Travel fees apply for weddings far from town[cite: 6, 8, 9].</span>
+            <span><strong>Travel Fees:</strong> Travel fees apply for weddings far from town.</span>
           </li>
         </ul>
       </div>
@@ -525,7 +501,7 @@
       <div class="text-center mb-8">
         <span class="text-brand-gold text-xs font-bold tracking-widest uppercase">Interactive Estimator</span>
         <h2 class="text-3xl font-serif font-bold text-white mt-1">Calculate Your Booking</h2>
-        <p class="text-xs text-gray-400 mt-2">Instantly estimate total costs and 50% initial installment deposit[cite: 6, 8, 9]</p>
+        <p class="text-xs text-gray-400 mt-2">Instantly estimate total costs and 50% initial installment deposit</p>
       </div>
 
       <div class="space-y-6">
@@ -549,11 +525,11 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
             <label class="flex items-center gap-3 p-3 rounded-xl bg-brand-dark border border-brand-gold/15 cursor-pointer hover:border-brand-gold/40">
               <input type="checkbox" id="addon-livestream" value="15000" onchange="calculateEstimate()" class="rounded text-brand-gold focus:ring-0">
-              <span class="text-gray-300 text-xs">Live Streaming (+ KES 15,000)[cite: 9]</span>
+              <span class="text-gray-300 text-xs">Live Streaming (+ KES 15,000)</span>
             </label>
             <label class="flex items-center gap-3 p-3 rounded-xl bg-brand-dark border border-brand-gold/15 cursor-pointer hover:border-brand-gold/40">
               <input type="checkbox" id="addon-album" value="8000" onchange="calculateEstimate()" class="rounded text-brand-gold focus:ring-0">
-              <span class="text-gray-300 text-xs">Extra Guest Album (+ KES 8,000)[cite: 8]</span>
+              <span class="text-gray-300 text-xs">Extra Guest Album (+ KES 8,000)</span>
             </label>
           </div>
         </div>
@@ -565,7 +541,7 @@
             <span id="calc-total" class="text-2xl font-serif font-bold text-brand-gold mt-1 block">KES 10,000</span>
           </div>
           <div class="border-l border-brand-gold/10">
-            <span class="text-[10px] uppercase font-bold text-gray-400 block tracking-wider">1st Installment (50%)[cite: 6, 8, 9]</span>
+            <span class="text-[10px] uppercase font-bold text-gray-400 block tracking-wider">1st Installment (50%)</span>
             <span id="calc-deposit" class="text-2xl font-serif font-bold text-white mt-1 block">KES 5,000</span>
           </div>
         </div>
@@ -591,15 +567,15 @@
 
       <div class="flex flex-col sm:flex-row items-center justify-center gap-6 mt-8 text-sm text-gray-300">
         <a href="tel:+254714909772" class="flex items-center gap-2 hover:text-brand-gold transition-colors">
-          <i data-lucide="phone" class="w-4 h-4 text-brand-gold"></i> +254 714 909 772[cite: 6, 8, 9]
+          <i data-lucide="phone" class="w-4 h-4 text-brand-gold"></i> +254 714 909 772
         </a>
         <a href="tel:+254759800177" class="flex items-center gap-2 hover:text-brand-gold transition-colors">
-          <i data-lucide="phone" class="w-4 h-4 text-brand-gold"></i> +254 759 800 177[cite: 6, 8, 9]
+          <i data-lucide="phone" class="w-4 h-4 text-brand-gold"></i> +254 759 800 177
         </a>
       </div>
 
       <div class="mt-6">
-        <a href="https://safiproduction.mypixieset.com" target="_blank" class="text-xs text-brand-gold hover:underline font-bold tracking-wider uppercase">
+        <a href="https://safiproduction.mypixieset.com" target="_blank" rel="noopener noreferrer" class="text-xs text-brand-gold hover:underline font-bold tracking-wider uppercase">
           safiproduction.mypixieset.com
         </a>
       </div>
@@ -613,7 +589,9 @@
   <!-- SCRIPT LOGIC -->
   <script>
     // Initialize Lucide Icons
-    lucide.createIcons();
+    if (window.lucide) {
+      window.lucide.createIcons();
+    }
 
     // Set Copyright Year
     document.getElementById('year').textContent = new Date().getFullYear();
@@ -649,13 +627,21 @@
 
     // Direct WhatsApp quote generator
     function sendCalculatedWhatsApp() {
-      const categoryText = document.getElementById('calc-category').options[document.getElementById('calc-category').selectedIndex].text;
+      const categoryText = document.getElementById('calc-category').selectedOptions[0].text;
       const totalText = document.getElementById('calc-total').textContent;
       const depositText = document.getElementById('calc-deposit').textContent;
+      const message = [
+        'Hello SaFi Production, I calculated a custom quote on your website:',
+        `- Package: ${categoryText}`,
+        `- Total Investment: ${totalText}`,
+        `- 1st Installment (50%): ${depositText}`,
+        '',
+        'How do I proceed with securing my booking?'
+      ].join('\n');
+      const whatsappUrl = new URL('https://wa.me/254714909772');
+      whatsappUrl.searchParams.set('text', message);
 
-      const message = `Hello SaFi Production, I calculated a custom quote on your website:%0A- Package: ${encodeURIComponent(categoryText)}%0A- Total Investment: ${totalText}%0A- 1st Installment (50%): ${depositText}%0A%0AHow do I proceed with securing my booking?`;
-
-      window.open(`https://wa.me/254714909772?text=${message}`, '_blank');
+      window.open(whatsappUrl.toString(), '_blank', 'noopener,noreferrer');
     }
   </script>
 </body>
